@@ -8,14 +8,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
-<body>
-    <h1>Kiek metu</h1>
-    <input id="data" type="numberInput" class="form-control" name="numberInput"placeholder="data" value=" ">
-    <input id="gimtadienis" type="numberInput" class="form-control" name="numberInput"placeholder="gimtadienis" value=" ">
-    <button id="btn" type="button">skaičiuoti</button>
-    <p id="demo"></p>
-   
-         <script src="./nd.js"></script>
+
+<body>   
+         <h1>Mano amžius</h1> 
+         <form id="form">
+            <label for="data">einamieji metai</label>
+            <input type="data" name="data" id="data"/>
+            <label for="gimtadienis">gimtadienis</label>
+            <input type="gimtadienis" name="gimtadienis" id="gimtadienis"/>
+            <button id="button" onclick="Skaiciuoti()">Skaiciuoti</button>
+            <p id="results"></p>
+          </form>
+          <script src="./nd.js"></script>
 </body>
 
 </html>
