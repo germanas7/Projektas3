@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    letter-spacing: 0.5vw;
+    line-height: 1.5;
+}
+p{
+    max-width: 700px;
+}
+
+.sublist_item-red {
+    font-size: 20px;
+    color: red;
+}
+
+.yellow {
+    font-size: 25px;
+    color: yellow;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.red {
+    color: red;
+}
+
+
+/* event stilius */
+/* 
+.btn{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+    text-align: center;
+    margin: 10px auto;
+} */
+
+.some {
+    width: 500px;
+    height: 80px;
+    line-height: 80px;
+    transition: all 1s;
+    text-align: center;
+    border-color: red;
+}
+
+.hide {
+    display: none;
+    height: 0;
+}
+
+.menu {
+    position: relative;
+    transition: all 1s;
+}
+.menu-list{
+    background-color: aliceblue;
+    padding: 20px;
+    color: #000428;
+    list-style: none;
+    transition: all 1s;
+    width: 100%;
+    position: absolute;
+    height: 230px;
+    
+}
+li{
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+
+.block {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    transition: all 1s;
+    color: #000428;
+}
+
+
+/* Forms style */
+
+.container {
+    max-width: 900px;
+}
